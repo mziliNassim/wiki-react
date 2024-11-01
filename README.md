@@ -1,7 +1,7 @@
 
 <!-- ========================== -->
 
-# Simple Wikipedia-like Search Website
+# Simple Wikipedia Search `Web Application`
 
 [Website Preview](https://nassimwikisearch.netlify.app/)
 
