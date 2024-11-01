@@ -1,70 +1,69 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ========================== -->
 
-## Available Scripts
+# Simple Wikipedia-like Search Website
 
-In the project directory, you can run:
+[Website Preview](https://nassimwikisearch.netlify.app/)
 
-### `npm start`
+This is a simple search website that allows users to search for articles and retrieve relevant information. It is built using React JS. The website provides a user-friendly interface for searching and displaying search results.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Search Functionality**:
+  >Users can enter keywords and search for articles.
 
-### `npm test`
+- **Responsive Design**:
+  >The website is responsive and can be used on various devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Article Display**:
+  >Display search results with titles and brief descriptions.
 
-### `npm run build`
+- **Clickable Links**:
+  >Users can click on the search results to view full articles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Simple and Intuitive**:
+  >Designed for easy navigation and use.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+  
+- **React JS**: JavaScript library created by Facebook for building user interfaces, specifically for single-page applications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Wikipedia API**: Used for retrieving search results and article content from Wikipedia.
 
-### `npm run eject`
+## How to Use
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1 - Final Rusult from web :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ``` git
+    https://nassimwikisearch.netlify.app/
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2 - Clone this repository to your local machine:
+  
+  ``` bash
+    git clone https://github.com/mziliNassim/wiki-react.git
+  ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3 - Open dirictory and install dependecise
+  
+  ``` bash
+    cd wiki-react
 
-## Learn More
+    git install
+  ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4 - Start the project
+  
+  ``` bash
+    npm run start
+  ```
+  
+5 - the app in the development mode
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ``` bash
+    http://localhost:3000
+  ```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  > The page will reload when you make changes
+  >
+  > You may also see any lint errors in the console.
