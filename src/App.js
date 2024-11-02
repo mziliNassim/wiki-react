@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { url } from "./data/links.js";
 
 import Navigation from "./components/Navigation";
 import Search from "./components/Search";
 import Results from "./components/Results.jsx";
+import ToTop from "./components/ToTop.jsx";
 
 const App = () => {
   const [errorMsg, setErrorMsg] = useState("");
@@ -12,7 +13,6 @@ const App = () => {
 
   const fetchUrl = async (term) => {
     try {
-      // Get API response
       let response = await fetch(`${url}${term}`);
       let data = await response.json();
       let results = data.query.search;
@@ -50,6 +50,7 @@ const App = () => {
       <Navigation />
       <Search getSearchTerm={getSearchTerm} />
       <Results results={resultsList} errorMsg={errorMsg} loding={loding} />
+      <ToTop />
     </>
   );
 };

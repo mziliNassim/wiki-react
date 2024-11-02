@@ -1,6 +1,7 @@
 import React from "react";
 
 const Results = ({ results, errorMsg, loding }) => {
+  console.log("Results ~ results:", results);
   return (
     <>
       <div class="results container">
@@ -10,6 +11,8 @@ const Results = ({ results, errorMsg, loding }) => {
         {results.length > 0 && (
           <div class="articles">
             {results.map((article, i) => {
+              // let articleDesc = article.snippet;
+              // document.write(articleDesc + "<br>");
               return (
                 <div key={i}>
                   <a
@@ -17,7 +20,7 @@ const Results = ({ results, errorMsg, loding }) => {
                     target="_blank"
                   >
                     <h4>{article.title}</h4>
-                    <p> {article.snippet} </p>
+                    <p> {article.snippet.slice(1, -1)}.... </p>
                   </a>
                 </div>
               );
