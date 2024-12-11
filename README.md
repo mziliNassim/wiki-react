@@ -3,9 +3,11 @@
 
 # Simple Wikipedia Search `Web Application`
 
-[Website Preview](https://nassimwikisearch.netlify.app/)
+[Website Preview](https://wikipedia.nassim.online/)
 
 This is a simple search website that allows users to search for articles and retrieve relevant information. It is built using React JS. The website provides a user-friendly interface for searching and displaying search results.
+
+![Website Preview](https://nassim.online/static/media/wiki.de5445864e24f4792aa2.png)
 
 ## Features
 
